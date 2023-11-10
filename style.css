@@ -206,6 +206,45 @@ section {
     gap: 1rem;
 }
 
+/* .typewriter-animation-container {
+    display: inline-block;
+} */
+
+.text1 {
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-right: 2px solid;
+    width: 100%; white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 2s steps(33),
+        cursor .4s step-end alternate infinite;
+}
+
+/* .text2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    border-right: 2px solid;
+    width: 100%; white-space: nowrap;
+    overflow: hidden;
+    animation-delay: 10s;
+    animation:
+        animation-delay 100s,
+        typing 2s steps(35),
+        cursor .4s step-end infinite alternate;
+} */
+
+/* cursor blinking */
+
+@keyframes cursor { 
+    50% {border-color: transparent}
+}
+
+@keyframes typing {
+    from { width: 0 }
+}
+
 /* Icons */
 
 .icon {
@@ -290,6 +329,9 @@ section {
 }
 
 .details-container {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
     padding: 1.5rem;
     flex: 1;
     background:•white; 
@@ -328,7 +370,7 @@ section {
     justify-content: center;
     flex-direction: column;
 }
-
+    
 .article-container {
     display: flex;
     text-align: initial;
