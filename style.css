@@ -378,6 +378,8 @@ section {
     flex-direction: row;
     gap: 2.5rem;
     justify-content: space-around;
+    width: 180px;
+    height: 336px;
 }
 
 article {
